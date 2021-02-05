@@ -1,17 +1,17 @@
 
 import React from 'react';
 import "../css/footer.css";
-import "../css/nav2.css";
-import { Link } from 'react-router-dom';
+import "../css/nav.css";
 
 
 
 
 
-function Nav2(){
+function Nav(){
 	return (
 		<>
-     <section class="navsect">
+
+<section class="navsect">
   <div id="home" class="navdiv"><p id="homep" class="p">  <a class="myanq" href="/home">Home</a></p></div>
   <div class="navdiv" id="about"><p class="p"><a class="myanq" href="/stories">Stories</a></p>
   </div>
@@ -21,10 +21,11 @@ function Nav2(){
   </div>
 
 </section>
+ 
       </>
 		
 		
 	);
 }
 
-export default Nav2;
+export default Nav;

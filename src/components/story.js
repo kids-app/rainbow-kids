@@ -43,6 +43,12 @@ function Joudi  ({match}){
 
 }
     function Sondos(props){
+        var change = props.post.content.split('\n').map(item=>{
+            return(
+                <div> {item}</div>
+               
+            )
+        })
         return(
            <>
            
@@ -55,7 +61,8 @@ function Joudi  ({match}){
                 </div>
                 <div className='five' > <button className='but'><Link to={`/guessing/${props.post.id}`} >Guessing Game</Link></button></div>
                 </div>
-                <div className='par'><p className='fourth'>{props.post.content}</p></div> 
+                
+            <div className='par'><p className='fourth'>{change}</p></div>  
                 
             
             </div>

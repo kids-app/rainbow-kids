@@ -2,7 +2,7 @@
 
 import React, { Component }  from "react";
 import { useEffect, useState } from 'react';
-import {  BrowserRouter as  Link } from 'react-router-dom';
+import {    Link } from 'react-router-dom';
 
 import ReactCardCarousel from "react-card-carousel";
 import PostLoadingComponent from './postLoading';
